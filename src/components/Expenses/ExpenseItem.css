@@ -1,0 +1,29 @@
+.expense_item{
+    display: flex;
+    width: 100%;
+    background-color: rgb(83, 83, 83);
+    border: 1px solid rgb(83, 83, 83);
+    font-weight: 700;
+    font-size: larger;
+    margin: 20px 0px;
+}
+
+.expense_item_info{
+    display: flex;
+    width: 90%;
+    color: white;
+    margin: auto 0;
+}
+
+.expence_item_amount{
+    margin-left: 50% !important;
+    display: flex;
+    background-color: purple;
+    margin: auto;
+    width: auto;
+    height: 50px;
+    padding: 2px 2%;
+    justify-content: center;
+    border: 2px solid white;
+    font-size: 2rem;
+}

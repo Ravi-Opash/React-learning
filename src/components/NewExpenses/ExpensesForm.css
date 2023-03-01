@@ -1,0 +1,39 @@
+.main_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.main_box input{
+  width: 300px;
+  line-height: 40px;
+  border-radius: 20px;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Btn_box{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.Btn_box button{
+    width: auto;
+    height: auto;
+    padding: 2%;
+    border: 2px solid white;
+    background-color: rgb(134, 41, 131);
+    color: white;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.box label{
+    display: block;
+    margin-left: 20px;
+}

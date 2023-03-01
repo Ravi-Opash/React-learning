@@ -1,0 +1,8 @@
+.new_expenses_main{
+    margin: 0% 10%;
+    padding: 2% 5%;
+    background-color: rgb(150, 123, 199);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
