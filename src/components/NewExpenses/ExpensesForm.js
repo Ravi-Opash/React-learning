@@ -26,7 +26,7 @@ const ExpensesForm = (props) => {
         amount: newAmount,
         date: new Date(newDate)
     }
-    console.log(newData);
+    props.onNewData(newData)
     setNewTitle('');
     setNewAmount('');
     setNewDate('');
