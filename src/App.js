@@ -13,18 +13,18 @@ const Demo_Expenses = [
     id: "e2",
     title: "News Paper",
     amount: 120.85,
-    date: new Date(2021, 12, 22),
+    date: new Date(2021, 10, 22),
   },
   {
     id: "e3",
     title: "House Rent",
-    amount: 2200,
+    amount: 1100,
     date: new Date(2020, 1, 1),
   },
   {
     id: "e3",
     title: "House Rent",
-    amount: 2200,
+    amount: 1100,
     date: new Date(2021, 1, 1),
   },
   {
