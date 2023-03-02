@@ -1,0 +1,27 @@
+.year-selecter-main {
+  width: 100%;
+}
+
+.year_selcter {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.year_selcter label {
+  justify-content: left;
+  color: white;
+  font-size: larger;
+  margin: auto 0;
+}
+
+.year_selcter select {
+  display: flex;
+  /* float: right; */
+  justify-items: right;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 1000;
+  border-radius: 20px;
+}
+

@@ -9,6 +9,7 @@
 }
 
 .expense_item_info{
+    position: relative;
     display: flex;
     width: 90%;
     color: white;
@@ -16,14 +17,17 @@
 }
 
 .expence_item_amount{
-    margin-left: 50% !important;
-    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 10px;
     background-color: purple;
-    margin: auto;
     width: auto;
     height: 50px;
     padding: 2px 2%;
-    justify-content: center;
     border: 2px solid white;
     font-size: 2rem;
+}
+
+li{
+    list-style: none;
 }
